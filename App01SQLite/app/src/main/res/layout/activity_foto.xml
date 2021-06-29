@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityFoto">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_normal" />
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto" />
+
+    <Button
+        android:id="@+id/btnImagenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Imagenes en BD" />
+</LinearLayout>
